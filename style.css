@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 1920px;
+    margin: 0 auto;
+    background-color: #000000;
+    font-family: 'Poppins', sans-serif;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 58px;
+    margin-bottom: 142px;
+    padding-left: 280px;
+    padding-right: 280px;
+}
+.header-nav-list{
+   display: flex;
+   gap: 39px;
+   list-style-type: none;
+}
+.nav-list-item a{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #707070;
+    text-decoration: none;
+} 
+.nav-list-item a:hover{
+    color: #306EF7;
+}
+.header-control{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.login-link{
+    display: block;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #707070;
+    text-decoration: none;
+    transition: 0.4s;
+}
+.signup-link{
+    display: block;
+    width: 119px;
+    padding-top: 12px;
+    padding-bottom: 13px;
+    background-color: #306EF7;
+    border: 1px solid #306EF7;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    text-decoration: none;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.marico-audience{
+    width: 1322px;
+    margin: 0 auto;
+    text-align: center;
+  
+}
+.marico-audience-title, .marico-audience-subtitle{
+    font-weight: 700;
+    font-size: 112px;
+    line-height: 168px;
+    color: #FFFFFF;
+}
+.marico-audience-subtitle{
+    background-color:  #FE6783;
+    background-image: linear-gradient(90deg, #FE6783 1.9%, #FFBF84 97.1%);
+    background-size: 100%;
+    background-repeat: repeat;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+.marico-audience-turn{
+    width: 694px;
+    margin: 136.32px auto;
+    
+}
+.audience-turn-desc{
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 60px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.marico-audience-actions{
+    display: flex;
+    margin-top: 50px;
+    gap: 26px;
+  
+}
+.started-link, .demo-link{
+    display: block;
+    width: 313px;
+    padding-top: 23px;
+    padding-bottom: 24px;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    text-decoration: none;
+    text-align: center;
+}
+.started-link{
+    background-color: #306EF7;
+    border: 1px solid #306EF7;
+    color: #FFFFFF;
+}
+.demo-link{
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+    color: #707070;
+}
+.audience-creators{
+    margin-top: 21px;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 38px;
+    text-align: center;
+    color: #707070;
+}
+.audience-creators span {
+    font-weight: 700;
+    color: #FFFFFF;
+}
