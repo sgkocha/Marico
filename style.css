@@ -64,7 +64,7 @@ body{
     cursor: pointer;
 }
 .marico-audience{
-    width: 1322px;
+    width: 1483px;
     margin: 0 auto;
     text-align: center;
   
@@ -98,7 +98,7 @@ body{
     text-align: center;
     color: #FFFFFF;
 }
-.marico-audience-actions{
+.marico-audience-actions, .step-info-actions{
     display: flex;
     margin-top: 50px;
     gap: 26px;
@@ -137,4 +137,228 @@ body{
 .audience-creators span {
     font-weight: 700;
     color: #FFFFFF;
+}
+.audience-creators-love{
+    margin-top: 188px;
+}
+.creators-love-title{
+    font-weight: 600;
+    font-size: 75px;
+    line-height: 112px;
+    color: #FFFFFF;
+}
+.creators-love-box{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 64px;
+    margin-bottom: 162px;
+}
+.love-item-title{
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 52px;
+    color: #FFFFFF;
+}
+.love-item-subtitle{
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    color: #707070;
+}
+.step{
+    margin-bottom: 70px;
+}
+.step-caption{
+    width: 929px;
+    margin: 0 auto;
+}
+.step-num{
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 38px;
+    text-align: center;
+    color: #3D82F2;
+}
+.step-desc {
+    width: 929px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 45px;
+    text-align: center;
+    color: #707070;
+}
+.view-link{
+    display: block;
+    width: 313px;
+    margin: 34px auto;
+    padding-top: 23px;
+    padding-bottom: 24px;
+    background-color: transparent;
+    border: 1px solid #707070;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #707070;
+    text-align: center;
+    text-decoration: none;
+}
+.step-box{
+    display: flex;
+    gap: 170px;
+    margin-top: 162px;
+    padding-left: 133px;
+}
+.step-info-subtitle{
+
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+    color: #FFFFFF
+}
+.step-info-desc{
+    width: 548px;
+    margin-top: 60px;
+    font-weight: 600;
+    font-size: 75px;
+    line-height: 112px;
+    color: #FFFFFF
+}
+.step-info-desc span {
+    color: #3C82F4;
+}
+.step-info-list {
+    list-style-type: none;
+    margin-top: 27px;
+}
+.step-info-list li {
+    margin-top: 12px;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 34px;
+    color: #FFFFFF;
+}
+.step-info-list li::before{
+    box-sizing: border-box;
+    content: "1";
+    display: inline-block;
+    width: 33px;
+    height: 33px;
+    background-color: #707070;
+    border: 1px solid #707070;
+    border-radius: 50%;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    margin-right: 12px;
+    padding-top: 2px;
+    color: #FFFFFF;
+
+}
+.step-info-list li:nth-child(2)::before{
+    content: "2";
+}
+.step-img::after{
+    content: "";
+    display: block;
+    width: 309px;
+    height: 124px;
+    margin-top: -86px;
+    margin-left: 36%;
+    background-color: #707070;
+    border: 1px solid #707070;
+}
+.step-link-info, .step-subscribers-info{
+    width: 854px;
+    padding-left: 45px;
+    padding-top: 24px;
+    background-color: #0D0D0D;
+}
+
+.info-title{
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 45px;
+    color: #0FC65C;
+}
+.info-desc{
+  
+    font-weight: 600;
+    font-size: 80px;
+    line-height: 120px;
+    color: #919191;
+}
+.info-desc span{
+    color: #FFFFFF;
+}
+.step-subscribers-info .info-desc {
+    margin-top: 96px;
+    width: 415px;
+}
+.info-wrap{
+    background-color: #2B2B29;
+    border-top: 14px solid #AFAAC1;
+    border-top-left-radius: 70%;
+    border-left: 14px solid #AFAAC1;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding-top: 75px;
+    padding-left: 75px;
+    padding-bottom: 75px;
+}
+.info-email{
+    background: #1E1E1E;
+    border: 1px solid #1E1E1E;
+    border-top-left-radius: 70%;
+    margin-top: 54px;
+    padding: 26px;
+}
+.info-email input{
+    width: 414px;
+    margin-top: 66px;
+    background: #323234 url("./images/lock.png") no-repeat 2% 50%;
+    border: 1px solid #323234;
+    border-top-left-radius: 11px;
+    border-bottom-left-radius: 11px;
+    outline: none;
+    padding-left: 38px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 35px;
+    line-height: 46px;
+    color: #84E575;
+}
+.info-email input::placeholder{
+    color: #84E575;
+}
+.step:nth-child(2) .started-link {
+    display: block;
+    margin: 49px auto;
+}
+.marico-experts-title{
+    margin-bottom: 52px;
+    font-weight: 600;
+    font-size: 75px;
+    line-height: 112px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.marico-help{
+    margin-top: 70px;
+    margin-bottom: 70px;
+    padding-top: 14%;
+    padding-bottom: 14%;
+    background: url("./images/helped.png") no-repeat;
+    font-weight: 600;
+    font-size: 70px;
+    line-height: 105px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.marico-help span {
+    display: block;
+    width: 1236px;
+    margin: 0 auto;
 }
