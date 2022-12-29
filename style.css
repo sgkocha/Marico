@@ -431,7 +431,7 @@ body{
     padding-bottom: 40px;
     border-bottom: 1px solid #828282;
 }
-.marico-mission-title{
+.marico-mission-title, .about-team-title{
     font-weight: 600;
     font-size: 25px;
     line-height: 38px;
@@ -464,3 +464,51 @@ body{
     line-height: 42px;
     color: #FFFFFF;
 }
+.marico-about-team{
+    width: 1252px;
+    margin: 48.5px auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+}
+.about-team-subtitle{
+    font-style: normal;
+    font-weight: 600;   
+    font-size: 75px;
+    line-height: 112px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.about-team-box{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 61px;
+}
+.team-member{
+    width: 220px;
+    text-align: center;
+}
+.team-member-name{
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 52px;
+    color: #FFFFFF;
+}
+.team-member-category{
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 28px;
+    color: #7F7F7F;
+}
+.team-member-twitter{
+    display: block;
+    margin: 24px auto;
+    width: 114px;
+    background: url("./images/arrow.png") no-repeat right;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
