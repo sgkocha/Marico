@@ -18,7 +18,7 @@ body{
     padding-left: 280px;
     padding-right: 280px;
 }
-.header-nav-list{
+.header-nav-list, .footer-nav-list{
    display: flex;
    gap: 39px;
    list-style-type: none;
@@ -126,7 +126,7 @@ body{
     border: 1px solid #FFFFFF;
     color: #707070;
 }
-.audience-creators{
+.audience-creators, .marico-started-creators{
     margin-top: 21px;
     font-weight: 400;
     font-size: 25px;
@@ -134,7 +134,7 @@ body{
     text-align: center;
     color: #707070;
 }
-.audience-creators span {
+.audience-creators span, .marico-started-creators span  {
     font-weight: 700;
     color: #FFFFFF;
 }
@@ -362,3 +362,58 @@ body{
     width: 1236px;
     margin: 0 auto;
 }
+.marico-started{
+    width: 880px;
+    margin: 188px auto;
+    text-align: center;
+}
+.marico-started-title{
+    margin-top: 21px;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 150px;
+    color: #FFFFFF;
+}
+.marico-started-subtitle{
+    margin-top: 21px;
+    font-weight: 400;
+    font-size: 43px;
+    line-height: 64px;
+    color: #FFFFFF;
+}
+.marico-started-btn{
+    display: block;
+    width: 472px;
+    background-color: #326CF9;
+    border: 1px solid #326CF9;
+    margin: 21px auto;
+    padding-top: 29px;
+    padding-bottom: 28px;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 158px;
+}
+.footer-logo img {
+  width: 223px;
+  height: 52.38px;
+}
+
+.footer-email{
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 40px;
+    color: #707070;
+}
+.footer-nav-list .nav-list-item a {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 42px;
+} 
