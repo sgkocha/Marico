@@ -316,7 +316,7 @@ body{
 .info-email input{
     width: 414px;
     margin-top: 66px;
-    background: #323234 url("./images/lock.png") no-repeat 2% 50%;
+    background: #323234 url("../images/lock.png") no-repeat 2% 50%;
     border: 1px solid #323234;
     border-top-left-radius: 11px;
     border-bottom-left-radius: 11px;
@@ -350,7 +350,7 @@ body{
     margin-bottom: 70px;
     padding-top: 14%;
     padding-bottom: 14%;
-    background: url("./images/helped.png") no-repeat;
+    background: url("../images/helped.png") no-repeat;
     font-weight: 600;
     font-size: 70px;
     line-height: 105px;
@@ -417,3 +417,50 @@ body{
     font-size: 28px;
     line-height: 42px;
 } 
+
+/*about*/
+.marico-logo{
+    width: 326px;
+    margin: 70px auto;
+}
+.marico-mission{
+    width: 1252px;
+    margin: 48.5px auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #828282;
+}
+.marico-mission-title{
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 38px;
+    text-align: center;
+    color: #306EF7;
+}
+.marico-mission-subtitle{
+    width: 938px;
+    margin: 0 auto;
+    font-weight: 600;
+    font-size: 75px;
+    line-height: 112px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.marico-mission-desc{
+    width: 994px;
+    margin: 0 auto;
+    margin-bottom: 186px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 45px;
+    text-align: center;
+    color: #FFFFFF
+}
+.marico-mission p {
+    margin-bottom: 24px;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 42px;
+    color: #FFFFFF;
+}
