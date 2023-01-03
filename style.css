@@ -718,3 +718,112 @@ body{
     line-height: 34px;
     color: #828282;
 }
+.marico-login {
+    margin-top: 79px;
+    text-align: center;
+}
+.marico-login-title{
+    font-weight: 600;
+    font-size: 75px;
+    line-height: 112px;
+    color: #FFFFFF;
+}
+.marico-login-subtitle {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+.marico-login-form{
+    margin-top: 77px;
+}
+.marico-login-form input{
+    width: 457px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #FFFFFF;
+    margin-left: 144px;
+    padding-bottom: 15.49px;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 34px;
+    color: #FFFFFF;
+}
+.marico-login-form input::placeholder {
+    color: #FFFFFF;
+}
+.marico-login-form input:nth-child(1){
+    background: url("./images/user.png") no-repeat right;
+}
+.marico-login-form input:nth-child(2){
+    background: url("./images/eye.png") no-repeat right;
+}
+.marico-login-form button {
+    display: block;
+    width: 488px;
+    margin: 77px auto;
+    background-color: #326CF9;
+    padding-top: 15px;
+    padding-bottom: 17px;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 39px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.social-login{
+   margin-top: 67px;
+   margin-bottom: 67px;
+   text-align: center;   
+}
+.social-login-title{
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 81px;
+    color: #FFFFFF;
+}
+.social-login-subtitle{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+.social-login-box{
+    margin-top: 46px;
+    display: flex;
+    justify-content: space-around;
+}
+.social-login-box a {
+    display: block;
+    width: 454px;
+    border: 1px solid #FFFFFF;
+    border-radius: 12px;
+    padding-top: 23.14px;
+    padding-bottom: 19.86px;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 32px;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-align: center;
+}
+.social-login-box a:nth-child(1){
+    background: url("./images/apple.png") no-repeat 20%;
+}
+.social-login-box a:nth-child(2){
+    background: url("./images/facebook.png") no-repeat 16%;
+}
+.social-login-box a:nth-child(3){
+    background: url("./images/g_logo.png") no-repeat 18%;
+}
+.social-login-create{
+    margin-top: 69px;
+}
+.social-login-create a {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
