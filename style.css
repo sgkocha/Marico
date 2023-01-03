@@ -718,7 +718,7 @@ body{
     line-height: 34px;
     color: #828282;
 }
-.marico-login {
+.marico-login, .marico-signup {
     margin-top: 79px;
     text-align: center;
 }
@@ -734,12 +734,12 @@ body{
     line-height: 36px;
     color: #FFFFFF;
 }
-.marico-login-form{
+.marico-login-form, .marico-signup-form{
     margin-top: 77px;
 }
-.marico-login-form input{
+.marico-login-form input, .marico-signup-form input{
     width: 457px;
-    background-color: transparent;
+    background: transparent;
     border: none;
     outline: none;
     border-bottom: 1px solid #FFFFFF;
@@ -750,16 +750,19 @@ body{
     line-height: 34px;
     color: #FFFFFF;
 }
-.marico-login-form input::placeholder {
+.marico-login-form input::placeholder, .marico-signup-form input::placeholder {
     color: #FFFFFF;
 }
-.marico-login-form input:nth-child(1){
+.marico-login-form input:nth-child(1), .marico-signup-form input:nth-child(1){
     background: url("./images/user.png") no-repeat right;
 }
-.marico-login-form input:nth-child(2){
+.marico-login-form input:nth-child(2), .marico-signup-form input:nth-child(2){
     background: url("./images/eye.png") no-repeat right;
 }
-.marico-login-form button {
+.marico-signup-form input:nth-child(3){
+    background: url("./images/at_sign.png") no-repeat right;
+}
+.marico-login-form button, .marico-signup-form button{
     display: block;
     width: 488px;
     margin: 77px auto;
